@@ -29,6 +29,7 @@ export interface Props<T> {
 const labelClassname = css`
   cursor: pointer;
   padding: 1px 0;
+  white-space: nowrap;
 `;
 
 const initState = {
