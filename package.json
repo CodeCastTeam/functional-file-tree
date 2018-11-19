@@ -1,0 +1,44 @@
+{
+  "name": "@code-cast-team/functional-file-tree",
+  "version": "0.1.0",
+  "description": "An un-opinionated React FunctionalFileTree Component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "react-emotion": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.118",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-icons": "^2.2.6",
+    "emotion": "^9.2.12",
+    "lodash": "^4.17.11",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-icons": "^2.2.7",
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCastTeam/functional-file-tree.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-components",
+    "file-tree",
+    "FileTree"
+  ],
+  "author": "Maxwell Gordon <maxwelljgordon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeCastTeam/functional-file-tree/issues"
+  },
+  "homepage": "https://github.com/CodeCastTeam/functional-file-tree#readme"
+}

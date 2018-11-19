@@ -1,2 +1,2 @@
-# functional-file-tree-component
-An un-opinionated FunctionalFileTree Component for React
+# FunctionalFileTree
+An un-opinionated React FunctionalFileTree Component

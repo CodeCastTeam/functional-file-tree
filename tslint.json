@@ -1,0 +1,53 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-airbnb"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts",
+      "dist/**/*.js"
+    ]
+  },
+  "rules": {
+    "import-name": false,
+    "interface-name": [true, "never-prefix"],
+    "prefer-template": false,
+    "max-line-length": {
+      "options": [100]
+    },
+    "member-access": true,
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "no-console": false,
+    "no-increment-decrement": false,
+    "no-unused-variable": [true, {"ignore-pattern": "^_"}],
+    "object-literal-sort-keys": false,
+    "ordered-imports": true,
+    "strict-boolean-expressions": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ],
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "ban-keywords",
+      "check-format"
+    ]
+  }
+}
