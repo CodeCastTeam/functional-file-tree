@@ -1,6 +1,6 @@
 {
   "name": "@code-cast-team/functional-file-tree",
-  "version": "0.1.5-0",
+  "version": "0.1.5-1",
   "description": "An un-opinionated React FunctionalFileTree Component",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

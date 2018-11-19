@@ -34,7 +34,7 @@ var React = require("react");
 var fa_1 = require("react-icons/lib/fa/");
 var fa_2 = require("react-icons/lib/fa/");
 var fa_3 = require("react-icons/lib/fa/");
-var labelClassname = emotion_1.css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  cursor: pointer;\n  padding: 1px 0;\n"], ["\n  cursor: pointer;\n  padding: 1px 0;\n"])));
+var labelClassname = emotion_1.css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  cursor: pointer;\n  padding: 1px 0;\n  white-space: nowrap;\n"], ["\n  cursor: pointer;\n  padding: 1px 0;\n  white-space: nowrap;\n"])));
 var initState = {
     timeout: 0,
 };
