@@ -29,8 +29,6 @@ export interface Props<T> {
 const labelClassname = css`
   cursor: pointer;
   padding: 1px 0;
-  overflow-x: scroll;
-  white-space: nowrap;
 `;
 
 const initState = {
