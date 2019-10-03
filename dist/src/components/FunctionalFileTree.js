@@ -9,7 +9,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -31,9 +31,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var emotion_1 = require("emotion");
 var fp = require("lodash/fp");
 var React = require("react");
-var fa_1 = require("react-icons/lib/fa/");
-var fa_2 = require("react-icons/lib/fa/");
-var fa_3 = require("react-icons/lib/fa/");
+var fa_1 = require("react-icons/fa");
+var fa_2 = require("react-icons/fa");
+var fa_3 = require("react-icons/fa");
 var labelClassname = emotion_1.css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  cursor: pointer;\n  padding: 1px 0;\n  white-space: nowrap;\n  overflow-x: hidden;\n"], ["\n  cursor: pointer;\n  padding: 1px 0;\n  white-space: nowrap;\n  overflow-x: hidden;\n"])));
 var initState = {
     timeout: 0,
@@ -120,7 +120,7 @@ function localGetClassname(_) {
     return '';
 }
 function localGetLabelIcon(_) {
-    return React.createElement(fa_3.FaFileCodeO, null);
+    return React.createElement(fa_3.FaFileCode, null);
 }
 function localGetFoldIcons(_) {
     return [React.createElement(fa_2.FaFolderOpen, { key: "0" }), React.createElement(fa_1.FaFolder, { key: "1" })];
