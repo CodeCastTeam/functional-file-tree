@@ -1,9 +1,9 @@
 import { css, cx } from 'emotion';
 import * as fp from 'lodash/fp';
 import * as React from 'react';
-import { FaFolder as FolderClosedIcon}  from 'react-icons/lib/fa/';
-import { FaFolderOpen as FolderOpenIcon}  from 'react-icons/lib/fa/';
-import { FaFileCodeO as FileIcon}  from 'react-icons/lib/fa/';
+import { FaFolder as FolderClosedIcon }  from 'react-icons/fa';
+import { FaFolderOpen as FolderOpenIcon }  from 'react-icons/fa';
+import { FaFileCode as FileIcon }  from 'react-icons/fa';
 import { Node, NodeArray, TreeData, Icon, NodeId }  from '../types';
 
 export interface Props<T> {
